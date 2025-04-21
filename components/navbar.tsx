@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="font-sans tracking-[1px] font-[300] flex justify-between items-center mx-25 pt-10 mb-30 text-[1.2rem] uppercase">
       <Link href="/">
-        <p className="border rounded-[60] border-red py-2 px-4 font-[500] bg-gray-800/20 tracking-[-1px]">
+        <p className="border rounded-[60] border-red py-2 px-4 font-[500] bg-gray-900/10 tracking-[-1px]">
           TCG Simulator
         </p>
       </Link>
