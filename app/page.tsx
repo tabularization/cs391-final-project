@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className="relative flex flex-col text-[#2E2E2E] h-full mt-30 items-center justify-start font-sans tracking-[-2px]">
       <div className="fixed inset-0 bg-[url('/bg5.png')] bg-cover bg-top-left blur-[4px] z-[-1] animate-bg-zoom"></div>
-      <h1 className="text-[3.5rem] font-[500] capitalize">Discover legendary cards, Start Collecting Today</h1>
-      <h2 className="text-[3rem] font-sans font-[300]">Over 1000+ Cards From Different Sets</h2>
+      <h1 className="text-[3.5rem] font-[500] capitalize">Discover <span className="italic tracking-[-2px]">legendary</span> cards, Start Discovering</h1>
+      <h2 className="text-[3rem] font-sans font-[300]">Over <span className="font-mono underline">1000+</span> Cards From Different Sets</h2>
       <Link href="/sets">
         <button className="border cursor-pointer rounded-[60] text-[1.2rem] mt-10 py-3 px-10 tracking-[1.5px] font-[500] uppercase text-gray-900">
           Open pack
