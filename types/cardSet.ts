@@ -1,6 +1,6 @@
 export interface SetImage {
-  symbol: "string";
-  logo: "string";
+  symbol: string;
+  logo: string;
 }
 
 export interface CardSet {
