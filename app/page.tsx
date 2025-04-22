@@ -1,16 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// Home Page By Dennis
 export default function Home() {
   return (
+    // Flex for layout, margin and padding for whitespace, font + color classes for typography tweaks 
     <div className="relative flex flex-col text-[#2E2E2E] h-full mt-30 items-center justify-start font-sans tracking-[-2px]">
+      {/* Fixed animated background */}
       <div className="fixed inset-0 bg-[url('/bg5.png')] bg-size-[100%_auto] blur-[10px] z-[-1] animate-bg-zoom"></div>
+      {/* Main Heading */}
       <h1 className="text-[3.5rem] font-[500] capitalize">
         Discover <span className="italic tracking-[-2px]">legendary</span> cards, Start Collecting
       </h1>
       <h2 className="text-[3rem] font-sans font-[300]">
         Over <span className="font-mono underline">1000+</span> Cards From Different Sets
       </h2>
+      {/* Clickable button with animations linking to the sets page */}
       <Link href="/sets">
         <button className="border cursor-pointer rounded-[60] text-[1.2rem] mt-10 py-3 px-10 tracking-[1.5px] font-[500] uppercase text-gray-900 hover:bg-sky-300/40 hover:-translate-y-1 transition delay-100 duration-300 ease-in-out">
           Open pack &#10132;

@@ -1,7 +1,10 @@
 import { CardSet } from "@/types/cardSet";
 
+// getSetData Function By Dennis - fetches a list of set data from Pokémon TCG API 
 export default async function getSetData(release: string): Promise<CardSet[]> {
+  // Fetch sets from the Pokémon TCG API, ordering by the provided release parameter and gets 15 card sets
   const res = await fetch(`https://api.pokemontcg.io/v2/sets?orderBy=${release}&pageSize=15`);
+  // Extract the 'data' field from the JSON response and return array of card sets
   const { data } = await res.json();
   return data;
 }
