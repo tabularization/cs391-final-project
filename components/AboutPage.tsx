@@ -91,8 +91,8 @@ export default function AboutPage() {
 
         <SubHeading>Meet the Team</SubHeading>
         <List>
-            <ListItem>(Name1) – (Which component you worked on)</ListItem>
-            <ListItem>Milo – About Page</ListItem>
+            <ListItem>Dennis - Home Page</ListItem>
+            <ListItem>Min Sung (Milo) Park – About Page</ListItem>
             <ListItem>(Name2) – (Which component you worked on)</ListItem>
         </List>
     </Wrapper>
