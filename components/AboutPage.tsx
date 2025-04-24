@@ -74,9 +74,9 @@ export default function AboutPage() {
 
         <SubHeading>Meet the Team</SubHeading>
         <List>
-            <ListItem>Dennis – Frontend & UI Design</ListItem>
-            <ListItem>Milo – Functionality & Architecture</ListItem>
-            <ListItem>Sophia – API Integration & Testing</ListItem>
+            <ListItem>(Name1) – (Which component you worked on)</ListItem>
+            <ListItem>Milo – About Page</ListItem>
+            <ListItem>(Name2) – (Which component you worked on)</ListItem>
         </List>
     </Wrapper>
     );
