@@ -1,9 +1,10 @@
 import { CardSet } from "@/types/cardSet";
 import Image from "next/image";
 
-// Set Component by Dennis - displays a horizontally scrolling list of card set logos
+// Set Component by Dennis Chen - displays a horizontally scrolling list of card set logos
 export default function SetComponent({ sets }: { sets: CardSet[] }) {
-  // Duplicate the sets to create a seamless scrolling loop since one set is not enough for a smooth effect
+  // Duplicate the sets to create a seamless scrolling loop since one set is not enough for a smooth effect.
+  // The animation will end preemptively without the duplicated data to fill in blank space - making the animation look like it teleported
   const duplicated = [...sets, ...sets];
 
   return (

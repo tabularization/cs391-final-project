@@ -3,10 +3,12 @@
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --animate-scroll-x: scroll-x 20s linear infinite;
+  
+  /* Animations by Dennis Chen */
+  --animate-scroll-x: scroll-x 25s linear infinite;
   --animate-bg-zoom: background-zoom 8s linear infinite;
 
-
+  /* Moves content left by 50% of its width for a seamless loop */
   @keyframes scroll-x {
     0% {
     }
@@ -15,6 +17,8 @@
     }
   }
 
+  /* Cycles through scaling and panning to create dynamic background motion
+  Moves in multiple directions while scaling down gradually */
   @keyframes background-zoom {
     0%,
     100% {
