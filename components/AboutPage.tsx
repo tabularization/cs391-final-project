@@ -79,14 +79,15 @@ export default function AboutPage() {
         <Heading>About This Project</Heading>
         <p>
             This project is a modern card collection browser built with Next.js and TypeScript. It allows
-            users to explore a catalog of over 1000 collectible cards from various sets.
+            users to explore a catalog of over 1000 collectible cards from various sets and draw cards from them.
         </p>
 
         <SubHeading>Core Functionality</SubHeading>
         <List>
-            <ListItem>Search and browse a vast collection of cards</ListItem>
+            <ListItem>Access to a vast collection of cards</ListItem>
             <ListItem>Visually engaging layout with animated UI</ListItem>
-            <ListItem>Different card sets and individual cards</ListItem>
+            <ListItem>Allows user to draw random Pokémon cards from the Pokemon TCG API</ListItem>
+            <ListItem>Open packs to reveal 5 new cards each time</ListItem>
         </List>
 
         <SubHeading>Meet the Team</SubHeading>
