@@ -86,7 +86,7 @@ export default function AboutPage() {
         <List>
             <ListItem>Search and browse a vast collection of cards</ListItem>
             <ListItem>Visually engaging layout with animated UI</ListItem>
-            <ListItem>Navigation to card sets and individual details</ListItem>
+            <ListItem>Different card sets and individual cards</ListItem>
         </List>
 
         <SubHeading>Meet the Team</SubHeading>

@@ -57,7 +57,7 @@ export default function Home() {
         </p>
       </div>
       {/* w-100% to equal width of parent for smooth animation, otherwise animation would break due to large width*/}
-      <div className="flex justify-start w-[100%] pb-40">
+      <div className="flex justify-start w-[100%] pb-40 overflow-hidden">
         {/* Render the SetComponent, passing in the fetched card sets as props */}
         <SetComponent sets={newCardSet} />
       </div>
