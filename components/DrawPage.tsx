@@ -15,14 +15,14 @@ export default function DrawPage(){
   async function fetchCards() { 
     setLoading(true);
     const res = await fetch("https://api.pokemontcg.io/v2/cards?pageSize=50"); 
-    const data = await res.json(); 
+    const {data} = await res.json(); 
     
 
     // Select 5 random cards to put in our cards list
     const selectedCards = []; 
     for (let i = 0; i < 5; i++) {
-      const randomInt = Math.floor(Math.random() * data.data.length); 
-      selectedCards.push(data.data[randomInt].images.small);
+      const randomInt = Math.floor(Math.random() * data.length); 
+      selectedCards.push(data[randomInt].images.small);
     }
     
     // Change our cards list with our new cards so that we can display them and removes the loading animation 
