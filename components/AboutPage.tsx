@@ -93,7 +93,7 @@ export default function AboutPage() {
         <List>
             <ListItem>Dennis - Home Page</ListItem>
             <ListItem>Min Sung (Milo) Park – About Page</ListItem>
-            <ListItem>(Name2) – (Which component you worked on)</ListItem>
+            <ListItem>(Alvin Zhu) – Pack drawing page</ListItem>
         </List>
     </Wrapper>
     );

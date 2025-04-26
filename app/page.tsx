@@ -33,8 +33,8 @@ export default function Home() {
       <h2 className="text-[3rem] font-sans font-[300]">
         Over <span className="font-mono underline">1000+</span> Cards From Different Sets
       </h2>
-      {/* Clickable button with animations linking to the sets page */}
-      <Link href="/sets">
+      {/* Clickable button with animations linking to the draw packs page */}
+      <Link href="/draw">
         <button className="border cursor-pointer rounded-[60] text-[1.2rem] mt-10 py-3 px-10 tracking-[1.5px] font-[500] uppercase text-gray-900 hover:bg-sky-300/40 hover:-translate-y-1 transition delay-100 duration-300 ease-in-out">
           Open pack &#10132;
         </button>

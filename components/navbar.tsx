@@ -20,7 +20,7 @@ export default function Navbar() {
           <Link href="/about">About</Link>
         </li>
         <li className="border cursor-pointer rounded-[60] px-5 tracking-[1.5px] bg-sky-300/40">
-          <Link href="/sets">Start</Link>
+          <Link href="/draw">Start</Link>
         </li>
       </ul>
     </nav>
