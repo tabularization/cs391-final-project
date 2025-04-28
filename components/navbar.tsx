@@ -1,6 +1,7 @@
+// Navbar Component By Dennis Chen - renders the site's main navigation bar with all links along with a site logo on left
+
 import Link from "next/link";
 
-// Navbar Component By Dennis Chen - renders the site's main navigation bar with all links
 export default function Navbar() {
   return (
     // Flex for styling + margin and padding for whitespace

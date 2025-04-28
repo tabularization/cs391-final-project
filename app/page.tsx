@@ -1,12 +1,12 @@
+// Home Page By Dennis Chen - landing page for trading card simulator along with buttons for re-direction to other pages
 "use client";
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import getSetData from "@/lib/getSets";
 import { CardSet } from "@/types/cardSet";
-import SetComponent from "@/components/set-component";
+import SetComponent from "@/components/SetComponent";
 
-// Home Page By Dennis Chen
 export default function Home() {
   // State to store the fetched list of card sets of CardSet datatype
   const [newCardSet, setNewCardSet] = useState<CardSet[]>([]);
@@ -47,7 +47,7 @@ export default function Home() {
         width={450}
       />
       {/* Set section - crediting Pokemon TCG API */}
-      <div className="flex flex-col justify-center items-center text-[3rem] uppercase my-35">
+      <div className="flex flex-col justify-center items-center text-[3rem] uppercase my-25">
         <h1 className="tracking-[1px] font-[500]">Recently Released Sets</h1>
         <p className="font-[300] tracking-[0.5px] text-[1.2rem]">
           Data and images provided by{" "}
@@ -57,7 +57,7 @@ export default function Home() {
         </p>
       </div>
       {/* w-100% to equal width of parent for smooth animation, otherwise animation would break due to large width*/}
-      <div className="flex justify-start w-[100%] pb-40 overflow-hidden">
+      <div className="flex justify-start w-[100%] pb-30 overflow-hidden">
         {/* Render the SetComponent, passing in the fetched card sets as props */}
         <SetComponent sets={newCardSet} />
       </div>

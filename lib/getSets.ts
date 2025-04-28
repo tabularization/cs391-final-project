@@ -1,6 +1,6 @@
+// getSetData Function By Dennis Chen - fetches a list of set data from Pokémon TCG API
 import { CardSet } from "@/types/cardSet";
 
-// getSetData Function By Dennis Chen - fetches a list of set data from Pokémon TCG API 
 export default async function getSetData(release: string): Promise<CardSet[]> {
   // Fetch sets from the Pokémon TCG API, ordering by the release date parameter and gets 15 card sets
   const res = await fetch(`https://api.pokemontcg.io/v2/sets?orderBy=${release}&pageSize=15`);
