@@ -14,7 +14,7 @@ export default function DrawPage(){
   // Fetching data from API
   async function fetchCards() { 
     setLoading(true);
-    const res = await fetch("https://api.pokemontcg.io/v2/cards?pageSize=50"); 
+    const res = await fetch('https://api.pokemontcg.io/v2/cards?q=rarity:"Rare Secret"&pageSize=100'); 
     const {data} = await res.json(); 
     
 
