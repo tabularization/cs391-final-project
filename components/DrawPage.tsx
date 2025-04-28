@@ -1,6 +1,6 @@
-"use client"
 //Draw Page component by Alvin Zhu 
 //This page handles logic for pulling data from the Pokemon TCG API and displaying the results accordingly  
+"use client"
 
 import { useState } from 'react'; 
 import Image from "next/image";
