@@ -39,9 +39,9 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser to view the
 
 | Member  | Component | Description |
 |---------|-----------|-------------|
-| Dennis  | `Home Page & Navbar`  | Top navigation bar and home screen |
-| Milo    | `AboutPage` | About page with project info |
-| Alvin    | `DrawPage` | A page for the user to draw cards and interact with the API |
+| Dennis Chen, denniscs@bu.edu | `Home Page & Navbar`  | Top navigation bar and home screen |
+| Milo Park, minpark@bu.edu   | `AboutPage` | About page with project info |
+| Alvin Zhu, alvinz@bu.edu    | `DrawPage` | A page for the user to draw cards and interact with the API |
 
 Each component is styled with `styled-components` and Tailwind CSS, also includes inline comments.
 
